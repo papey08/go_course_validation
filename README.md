@@ -25,7 +25,7 @@ import (
 )
 
 type Person struct {
-	Name string `validaate:"max:50"`
+	Name string `validate:"max:50"`
 	Age  int    `validate:"min:0"`
 }
 
